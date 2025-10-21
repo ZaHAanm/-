@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="下載 (5).jpg" type="image/x-icon">
+  <title>歌手排行榜</title>
+  <style>
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background: #f1f1f1;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+    .main {
+      flex: 1;
+      padding: 32px;
+    }
+    </style>
+  <style>
+    @keyframes colorChange{
+        0%   {color: red;}
+        25%  {color: pink;}
+        50%  {color: blue;}
+        75%  {color: rgb(9, 89, 89);}
+        100% {color: black;}
+        }
+        .color-change-text{
+            animation: colorChange 1s infinite
+    }
+  </style>
+  <style>
+    p{font-size: 40px;}
+    h1{font-size: 70px;}
+    h1{text-align: center;}
+    h2{font-size: 50px;}
+  </style>
+  <style>
+    .play {
+      margin-top: 100px;
+      margin-left: auto;
+      background-color: yellowgreen;
+      color: white;
+      padding: 20px 48px;
+      border: none;
+      border-radius: 12px;
+      font-size: 22px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 4px 20px rgba(226,62,53,0.4);
+      transition: background 0.2s;
+    }
+    .play:hover{
+        background-color: aquamarine;
+    }
+  </style>
+</head>
+<body>
+  <a href="Untitled-2.html" class="play">返回</a>
+  <h1 class="color-change-text">世界各區歌手收益排行榜</h1>
+  <div class="container">
+    <nav class="sidebar">
+      <details>
+        <summary><a href="#asian">亞洲</a></summary>
+        <ul>
+          <li><a href="#bts">BTS</a></li>
+          <li><a href="#blackpink">BLACKPINK</a></li>
+          <li><a href="#rose">Rose</a></li>
+          <li><a href="#babymonster">BABYMONSTER</a></li>
+          <li><a href="#aespa">aespa</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary><a href="#america">美洲</a></summary>
+        <ul>
+          <li><a href="#genesis">Genesis</a></li>
+          <li><a href="#sting">Sting</a></li>
+          <li><a href="#taylor swift">Taylor Swift</a></li>
+          <li><a href="#bad bunny">Bad Bunny</a></li>
+          <li><a href="#jay-z">Jay-z</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary><a href="#europe">歐洲</a></summary>
+        <ul>
+          <li><a href="#ed sheeran">Ed Sheeran</a></li>
+          <li><a href="#paul mccartney">Paul McCartney</a></li>
+          <li><a href="#elton john">Elton John</a></li>
+          <li><a href="#harry styls">Harry Styles</a></li>
+          <li><a href="#adele">Adele</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary><a href="#africa">非洲</a></summary>
+        <ul>
+          <li><a href="#wizkid">Wizkid</a></li>
+          <li><a href="#davido">Davido</a></li>
+          <li><a href="#burna boy">Burna Boy</a></li>
+          <li><a href="#asa">Asa</a></li>
+          <li><a href="#don jazzy">Don Jazzy</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary><a href="#oceana">大洋洲</a></summary>
+        <ul>
+          <li><a href="hilltop hooda">Hilltop Hoods</a></li>
+          <li><a href="calvin harris">Calvin Harris</a></li>
+          <li><a href="sia">Sia</a></li>
+          <li><a href="aldn richards">Aldn Richards</a></li>
+          <li><a href="milo ge">Milo Ge</a></li>
+        </ul>
+      </details>
+    </nav>
+    <main class="main">
+      <h2 id="asian">亞洲</h2>
+      <p>
+        <h3 id="bts">1.BTS</h3><br>
+        <img src="下載.jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為BTS點閱率較高歌曲,高達18億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=XsX3ATc3FbA&list=RDXsX3ATc3FbA&start_radio=1" target="_blank">작은 것들을 위한 시</a></span><br>
+        
+        <h3 id="blackpink">2.BLACKPINK</h3><br>
+        <img src="下載 (1).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為BLACKPINK點閱率較高歌曲,高達2.4億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=CgCVZdcKcqY&list=RDCgCVZdcKcqY&start_radio=1" target="_blank">뛰어</a></span><br>
+        
+        <h3 id="rose">3.Rose</h3><br>
+        <img src="下載 (2).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Rose點閱率較高歌曲,高達20億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=ekr2nIex040&list=RDekr2nIex040&start_radio=1" target="_blank">APT</a></span><br>
+        
+        <h3 id="babymonster">4.BABYMONSTER</h3><br>
+        <img src="下載 (3).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為BABY MONSTER點閱率較高歌曲,高達3.7億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=2wA_b6YHjqQ&list=RD2wA_b6YHjqQ&start_radio=1" target="_blank">SHEESH</a></span><br>
+        
+        <h3 id="aespa">5.aespa</h3><br>
+        <img src="下載 (4).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為aespa點閱率較高歌曲,高達2.3億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=jWQx2f-CErU&list=RDjWQx2f-CErU&start_radio=1" target="_blank">Whiplash</a></span><br>
+
+    </p>
+    <hr>
+      <h2 id="america">美洲</h2>
+      <p>
+        <h3 id="genesis">1.Genesis</h3><br>
+        <img src="下載 (7).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Genesus點閱率較高歌曲,高達4000萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=35K6vQRt67g" target="_blank">Jesus He Knows Me</a></span><br>
+
+        <h3 id="sting">2.Sting</h3><br>
+        <img src="下載 (8).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Sting點閱率較高歌曲,高達5.5億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=C3lWwBslWqg&list=RDC3lWwBslWqg&start_radio=1" target="_blank">Desert Rose</a></span><br>
+
+        <h3 id="taylor swift">3.Taylor Swift</h3><br>
+        <img src="下載 (9).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Tayior Swift點閱率較高歌曲,高達37億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=e-ORhEE9VVg&list=RDe-ORhEE9VVg&start_radio=1" target="_blank">Blank Space</a></span><br>
+
+        <h3 id="bad bunny">4.Bad Bunny</h3><br>
+        <img src="下載 (10).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Bad Bunny點閱率較高歌曲,高達16億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=OSUxrSe5GbI&list=RDOSUxrSe5GbI&start_radio=1" target="_blank">MÍA</a></span><br>
+
+        <h3 id="jay-z">5.Jay-z</h3><br>
+        <img src="下載 (11).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Jay-z點閱率較高歌曲,高達4億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=vk6014HuxcE&list=RDvk6014HuxcE&start_radio=1" target="_blank"> Empire State Of Mind ft. Alicia Keys</a></span><br>
+
+      </p>
+      <hr>
+      <h2 id="europe">歐洲</h2>
+      <p>
+        <h3 id="ed sheeran">1.Ed Sheeran</h3><br>
+        <img src="下載 (12).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Ed Sheeran點閱率較高歌曲,高達65億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">Shape of You</a></span><br>
+
+        <h3 id="paul mccartney">2.Paul McCartney</h3><br>
+        <img src="下載 (13).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Paul McCartney點閱率較高歌曲,高達3300萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=94Ye-3C1FC8" target="_blank">Wonderful Christmastime</a></span><br>
+
+        <h3 id="elton john">3.Elton John</h3><br>
+        <img src="下載 (14).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Elton John點閱率較高歌曲,高達8.6億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=NrLkTZrPZA4&list=RDNrLkTZrPZA4&start_radio=1" target="_blank">Sacrifice</a></span><br>
+
+        <h3 id="harry styles">4.Harry Styles</Style></h3><br>
+        <img src="下載 (15).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Harry Styles點閱率較高歌曲,高達2300萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=-UJCMfuFtSQ&list=RD-UJCMfuFtSQ&start_radio=1" target="_blank">Daylight</a></span><br>
+
+        <h3 id="adele">5.Adele</h3><br>
+        <img src="下載 (16).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Adele點閱率較高歌曲,高達27億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=rYEDA3JcQqw&list=RDrYEDA3JcQqw&start_radio=1" target="_blank">Rolling in the Deep</a></span><br>
+
+      </p>
+      <hr>
+      <h2 id="africa">非洲</h2>
+      <p>
+        <h3 id="wizkid">1.Wizkid</h3><br>
+        <img src="下載 (17).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Wizkid點閱率較高歌曲,高達3.2億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=FCUk7rIBBAE&list=RDFCUk7rIBBAE&start_radio=1" target="_blank">Joro</a></span><br>
+
+        <h3 id="davido">2.Davido</h3><br>
+        <img src="下載 (18).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Davido點閱率較高歌曲,高達1.3億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=OSBan_sH_b8&list=RDOSBan_sH_b8&start_radio=1" target="_blank">UNAVAILABLE</a></span><br>
+
+        <h3 id="burna boy">3.Burna Boy</h3><br>
+        <img src="下載 (19).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Burna Boy點閱率較高歌曲,高達3.3億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=421w1j87fEM&list=RD421w1j87fEM&start_radio=1" target="_blank"> Last Last</a></span><br>
+
+        <h3 id="asa">4.Asa</h3><br>
+        <img src="下載 (20).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Asa點閱率較高歌曲,高達93萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=I4EYp4Rhb6k&list=RDI4EYp4Rhb6k&start_radio=1" target="_blank">Jailer</a></span><br>
+
+        <h3 id="don jazzy">5.Don Jazzy</h3><br>
+        <img src="下載 (21).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Don Jazzy點閱率較高歌曲,高達7640萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=f6-gjQQNIlA&list=RDf6-gjQQNIlA&start_radio=1" target="_blank">Adaobi</a></span><br>
+
+      </p>
+      <hr>
+      <h2 id="oceana">大洋洲</h2>
+      <p>
+        <h3 id="hilltop hoods">1.Hilltop Hoods</h3><br>
+        <img src="下載 (22).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Hilltop Hoods點閱率較高歌曲,高達3200萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=aB16fJpoj-I&list=RDaB16fJpoj-I&start_radio=1" target="_blank">Cosby Sweater </a></span><br>
+
+        <h3 id="calvin harris">2.Calvin Harris</h3><br>
+        <img src="下載 (23).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Calvin Harris點閱率較高歌曲,高達17億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=ebXbLfLACGM&list=RDebXbLfLACGM&start_radio=1" target="_blank">Summer</a></span><br>
+
+        <h3 id="sia">3.Sia</h3><br>
+        <img src="下載 (24).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Sia點閱率較高歌曲,高達28億</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=2vjPBrBU-TM&list=RD2vjPBrBU-TM&start_radio=1" target="_blank">Chandelier</a></span><br>
+
+        <h3 id="aldn richards">4.Aldn Richards</h3><br>
+        <img src="下載 (25).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Aldn Richards點閱率較高歌曲,高達298萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=Sk5UmTfP5us&list=RDSk5UmTfP5us&start_radio=1" target="_blank">Haplos</a></span><br>
+
+        <h3 id="milo ge">5.Milo Ge</h3><br>
+        <img src="下載 (26).jpg" width="300"><br>
+        <span style="font-size: 15px; color: red;">附上此首歌為Milo Ge點閱率較高歌曲,高達231萬</span><br>
+        <span style="font-size: 20px;"><a href="https://www.youtube.com/watch?v=gn_cO002sm0&list=RDgn_cO002sm0&start_radio=1" target="_blank"> Lata Mangeshkar</a></span><br>
+      </p>
+      <hr>
+    </main>
+  </div>
+</body>
+</html>
